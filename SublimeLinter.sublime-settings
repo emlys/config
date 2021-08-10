@@ -1,0 +1,15 @@
+// SublimeLinter Settings - User
+{
+    "styles": [
+        {
+            "scope": "region.yellowish markup.warning.sublime_linter",
+            "types": ["warning"]
+        },
+        {
+            "priority": 1,
+            "icon": "dot",
+            "mark_style": "fill",
+            "scope": "region.redish markup.error.sublime_linter"
+        }
+    ]
+}
