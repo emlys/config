@@ -1,0 +1,5 @@
+*.so
+*.pyc
+*.cpp
+*.DS_Store
+.gitignore
