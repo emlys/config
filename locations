@@ -1,0 +1,8 @@
+.bash_profile: ~
+.bashrc: ~
+.condarc: ~
+.gitignore: ~
+pycodestyle: ~/.config
+AutoPep8.sublime-settings: ~/Library/Application Support/Sublime Text 3/Packages/User/
+Preferences.sublime-settings: ~/Library/Application Support/Sublime Text 3/Packages/User/
+SublimeLinter.sublime-settings: ~/Library/Application Support/Sublime Text 3/Packages/User/
