@@ -12,7 +12,7 @@ fi
 
 # aliases
 alias g='git'
-__git_complete g _git  # set up autocomplete for alias
+__git_complete g __git_main  # set up autocomplete for alias
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -29,4 +29,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-[[ -f ~/.bashrc ]] && source ~/.bashrc # ghcup-env
+# set up homebrew
+export PATH="/opt/homebrew/bin:$PATH"
+
+# set up subl
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
