@@ -3,3 +3,8 @@
 *.cpp
 *.DS_Store
 .gitignore
+.coverage
+.eggs/
+htmlcov/
+coverage.xml
+*.egg-info/
