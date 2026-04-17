@@ -11,5 +11,10 @@
             "mark_style": "fill",
             "scope": "region.redish markup.error.sublime_linter"
         }
-    ]
+    ],
+    "linters": {
+        "flake8": {
+            "args": ["--builtins=_"]
+        }
+    }
 }

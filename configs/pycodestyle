@@ -1,3 +1,5 @@
 [pycodestyle]
 in-place = true
 aggressive = 2  # aggressive will fix less "safe" things like breaking long lines
+builtins = _
+

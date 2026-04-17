@@ -1,4 +1,5 @@
 {
+	"caret_style": "smooth",
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -40,12 +41,25 @@
 		"*.sublime-workspace",
 		"*.idea"
 	],
-	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Jedi - Python autocompletion",
+		"Vintage",
 	],
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete": false,
+	"fold_buttons": false,
+	/*"mini_diff": false,*/
+	/*"ensure_newline_at_eof_on_save": true*/
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 14,
+	"index_files": true,
+	// Controls auto pairing of quotes, brackets etc
+	/*"auto_match_enabled": false,*/
 }
